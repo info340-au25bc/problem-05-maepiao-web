@@ -108,7 +108,7 @@ for (let i = 0; i < suits.length; i++){
     let card = {
       suit: suit,
       rank: j
-    }
+    };
     deck.push(card);
   }
 }
@@ -168,7 +168,16 @@ function isFlush(cards){
    cards with the same _rank_) in the array.
    Double challenge: return the rank of the pair of cards with the highest rank 
    (e.g., if the hand contains more than one pair!) */
-
+// function hasPair(cards){
+//   for (let i = 0; i < cards.length; i++){
+//     for(let j = i+1; j < cards.length; i++){
+//       if(cards[i].rank == cards[j].rank){
+//         return true;
+//       }
+//     }
+//   }
+//   return false;
+// }
 
 
 //Make functions and variables available to tester. DO NOT MODIFY THIS.
